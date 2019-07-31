@@ -1,7 +1,7 @@
 # Ttads
 Componentes y codigo de prueba para clases
 
-Referencias de real world app en (https://github.com/gothinkster/realworld)
+## Referencias de real world app en (https://github.com/gothinkster/realworld)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
 ## Development server
