@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ttads';
+  lista = [
+
+    'Hola', 'Que', 'Tal', 'Chicxs'
+  ]
+  public countedValue = 0;
+  valor = 10;
+  onFirstPlusClicked(value) {
+    this.countedValue = value;
+  }
 }

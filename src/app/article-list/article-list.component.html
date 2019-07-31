@@ -1,0 +1,21 @@
+
+<div *ngIf="selectedArticle === null">
+<h1>Articulos</h1>
+
+<app-article-row
+  *ngFor="let article of articles"
+  [article]="article"
+  (click)="onArticleRowClicked(article)"
+  >
+</app-article-row>
+</div>
+
+
+<div *ngIf="selectedArticle !== null">
+  <h1>Articulo Seleccionado</h1>
+  <app-article-row
+  [article]="selectedArticle"
+  >
+  </app-article-row>
+</div>
+
