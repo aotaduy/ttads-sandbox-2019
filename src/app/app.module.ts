@@ -14,6 +14,7 @@ import {MovieService} from './movies/movie.service';
 import { Counter2Component } from './counter2/counter2.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleRowComponent } from './article-row/article-row.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ArticleRowComponent } from './article-row/article-row.component';
     MoviesComponent,
     Counter2Component,
     ArticleListComponent,
-    ArticleRowComponent
+    ArticleRowComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
