@@ -27,3 +27,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Ejercicio
+
+Realizar una aplicación que permita editar una lista de usuarios
+La aplicación debe tener una pagina de login,
+el usuario logueado es parte de esa lista.
+La aplicación debe tener una pagina para mostrar la lista
+Otra para editar los usuarios
+Otra para dar de alta un usuario
+Otra para ver un usuario.
+(Se puede usar el formulario de edición con los campos en readonly)
+Y otra para eliminar los usuarios
+
+Cada usuario tiene permisos de
+agregar nuevos usuarios,
+editar usuarios
+eliminar usuarios
+editar sus propios datos
+
+El usuario no puede eliminarse a si mismo
