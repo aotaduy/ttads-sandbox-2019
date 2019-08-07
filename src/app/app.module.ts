@@ -15,6 +15,10 @@ import { Counter2Component } from './counter2/counter2.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleRowComponent } from './article-row/article-row.component';
 import { LoginComponent } from './login/login.component';
+import { PrimerPaginaComponent } from './primer-pagina/primer-pagina.component';
+import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.component';
+import { NavegacionComponent } from './navegacion/navegacion.component';
+import {PrimerPaginaResolver} from './primer-pagina/primer-pagina.resolve';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,10 @@ import { LoginComponent } from './login/login.component';
     Counter2Component,
     ArticleListComponent,
     ArticleRowComponent,
-    LoginComponent
+    LoginComponent,
+    PrimerPaginaComponent,
+    SegundaPaginaComponent,
+    NavegacionComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +41,7 @@ import { LoginComponent } from './login/login.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [TodoService, MovieService],
+  providers: [TodoService, MovieService, PrimerPaginaResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
