@@ -11,6 +11,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class PrimerPaginaComponent implements OnInit {
    articles: any[];
+  unTexto: any;
 
   constructor(
     private router: Router,

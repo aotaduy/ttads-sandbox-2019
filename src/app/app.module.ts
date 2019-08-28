@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoAppComponent } from './todo-app/todo-app.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {TodoService} from './todo.service';
 import {HttpClientModule} from '@angular/common/http';
 import { MoviesComponent } from './movies/movies.component';
@@ -39,7 +39,8 @@ import {PrimerPaginaResolver} from './primer-pagina/primer-pagina.resolve';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [TodoService, MovieService, PrimerPaginaResolver],
   bootstrap: [AppComponent]
