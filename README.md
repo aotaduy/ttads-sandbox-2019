@@ -48,3 +48,16 @@ eliminar usuarios
 editar sus propios datos
 
 El usuario no puede eliminarse a si mismo
+
+
+---
+
+### Ejercicio Reactive Forms
+
+####Formulario de creacion de cuenta. 
+Quiero poder crear un usuario con nombre, apellido, email, password y confirmacion de password. 
+todos los campos son requeridos. Se debe validar el email. 
+El password debe tener como minimo 8 caracteres, contar con mayusculas, minusculas, numeros y simbolos. 
+Por cada una de estas reglas se debe mostrar un cartel grisado indicando la regla y el mismo se debe prender (colorear como negro) una vez que se valide la regla como correcta. 
+
+El boton de enviar el forumalio se debe habilitar unicamente despues de que todas las validaciones sean correctas. 
